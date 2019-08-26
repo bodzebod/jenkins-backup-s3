@@ -7,7 +7,7 @@ I needed to specify the AWS CLI argument "-sse" when uploading a backup to an en
 
 ## Setup
 
-`pip install bodzebod/jenkins-backup-s3`
+`sudo pip install git+https://github.com/bodzebod/jenkins-backup-s3`
 
 ### Configure S3 and IAM
 
