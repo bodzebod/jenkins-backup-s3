@@ -3,9 +3,11 @@
 A collection of scripts to backup Jenkins configuration to S3, as well as manage and restore those backups. By default
 runs silently (no output) with proper exit codes. Log Level option enables output.
 
+I needed to specify the AWS CLI argument "-sse" when uploading a backup to an encrypted bucket. So, this fork adds an argument "--sse" with a default value "aws:kms".
+
 ## Setup
 
-`pip install jenkins-backup-s3`
+`pip install bodzebod/jenkins-backup-s3`
 
 ### Configure S3 and IAM
 
