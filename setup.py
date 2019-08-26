@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='jenkins-backup-s3',
+    name='bodzebod/jenkins-backup-s3',
     version='0.1.9',
-    description="Backup Jenkins to S3",
+    description="Fork from Backup Jenkins to S3",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="http://github.com/artsy/jenkins-backup-s3",
-    author='Isac Petruzzi',
-    author_email='isac@artsymail.com',
+    url="http://github.com/bodzebod/jenkins-backup-s3",
+    author='Stephane Baudet',
+    author_email='',
     license='MIT',
     packages=find_packages(),
     entry_points={
