@@ -1,5 +1,7 @@
 # jenkins-backup-s3
 
+This is a fork from https://github.com/artsy/jenkins-backup-s3 (v0.1.9).
+
 A collection of scripts to backup Jenkins configuration to S3, as well as manage and restore those backups. By default
 runs silently (no output) with proper exit codes. Log Level option enables output.
 
