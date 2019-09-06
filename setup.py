@@ -22,7 +22,7 @@ setup(
     install_requires=(
         'boto3~=1.9',
         'click~=7.0',
-        'colorama~=0.4',
+        'colorama~=0.3.9',
         'python-dateutil~=2.8',
         'termcolor~=1.1'
     )
